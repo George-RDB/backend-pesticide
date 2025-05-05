@@ -95,6 +95,8 @@ app.get("/produse/cautare", async (req, res) => {
 
 // Pornire server
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => console.log(`✅Server Express ascultă pe portul ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`✅Server Express ascultă pe portul ${PORT}`);
+});
 
 
